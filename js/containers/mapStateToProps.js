@@ -1,6 +1,4 @@
-/**
- * Created by macmini on 09.11.16.
- */
+
 const cl = console.log;
 
 import 'babel-polyfill';

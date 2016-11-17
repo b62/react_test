@@ -1,6 +1,4 @@
-/**
- * Created by macmini on 08.11.16.
- */
+
 
 import  React from 'react';
 import {Component} from 'react';
