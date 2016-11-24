@@ -1,0 +1,39 @@
+html, body {
+  min-height: 100% !important;
+  color: #fff;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  text-align: justify; }
+
+body {
+  background: #3C449A;
+  background: linear-gradient(#3C449A 15%, #7CC6F7);
+  background-attachment: fixed; }
+
+a {
+  color: #fff; }
+
+.root {
+  padding: 10px 0px 13px 20px;
+  background: rgba(59, 68, 75, 0.1); }
+  .root .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .root .menu li {
+      display: inline-block;
+      padding: 0px 15px; }
+      .root .menu li a {
+        text-decoration: none; }
+      .root .menu li a:hover {
+        border-bottom: 2px solid;
+        color: #fff !important; }
+
+.kmgCard {
+  background: rgba(255, 255, 255, 0.5) !important;
+  margin-bottom: 2rem; }
+
+.kmgLoginContainer input {
+  color: #fff !important; }
+
+/*# sourceMappingURL=app.css.map */
