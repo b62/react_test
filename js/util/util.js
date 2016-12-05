@@ -1,3 +1,8 @@
+/**
+ * Created by macmini on 09.11.16.
+ */
+
+
 
 export  const checkLogin = (nextState, replace) => {
 

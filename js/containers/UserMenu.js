@@ -1,3 +1,6 @@
+/**
+ * Created by macmini on 09.11.16.
+ */
 
 import 'babel-polyfill';
 import  React from 'react';

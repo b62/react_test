@@ -1,3 +1,6 @@
+/**
+ * Created by macmini on 09.11.16.
+ */
 
 import MenuItem from 'material-ui/MenuItem';
 
@@ -18,7 +21,7 @@ const About = React.createClass({
         return (
             <div>
                 <VisibleGlobalNav />
-                <h4>About page</h4>
+                <div>About page</div>
             </div>
 
         );

@@ -7,14 +7,17 @@ import {render} from 'react-dom';
 import {Provider, connect} from 'react-redux';
 import {createStore} from 'redux';
 import {Router, Route, IndexRoute, Navigation, browserHistory} from 'react-router';
+import {Link} from "react-router";
 
 import {checkLogin} from "./js/util/util";
 import Login from './js/components/Login';
 import iamApp from "./js/reducers/iamApp";
 import IAMApp from './js/components/IAMApp';
 import About from './js/components/About';
-import Dashboard from "./js/components/Dashboard";
 import SignUp from './js/components/SignUp';
+import Dashboard from "./js/components/Dashboard";
+
+
 
 
 import Formsy from 'formsy-react';
@@ -30,7 +33,7 @@ Formsy.addValidationRule('isStrongPassword', (values, value) => {
      (?=.*[A-Z])             //should contain at least one upper case
      [a-zA-Z0-9]{8,}         //should contain at least 8 from the mentioned characters
      $/)
-     */
+    */
     const rule = (/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{8,}$/);
     return rule.test(value);
 });
@@ -59,6 +62,5 @@ render(
     </Provider>,
     document.getElementById('app')
 );
-
 
 
